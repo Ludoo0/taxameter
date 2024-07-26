@@ -12,8 +12,8 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <!-- Headline -->
   <body>
+    <!-- Headline -->
     <div class="navbar">
       <div class="headline">
         <img src="img/Refresh.svg" alt="" onclick="location.reload()" />
@@ -25,9 +25,17 @@
       </div>
     </div>
     <!-- Body -->
-     <div>
-      <input type="number" name="" id="">
-      <!-- TODO: Improve Input -->
-     </div>
+    <form class="calculate" onsubmit="">
+      <div class="inputs">
+        <input
+          type="number"
+          name=""
+          id=""
+          placeholder="Gefahrene Entfernung (km)"
+        />
+        <div class="answer">Preis</div>
+      </div>
+      <button type="submit">Berechnen</button>
+    </form>
   </body>
 </html>

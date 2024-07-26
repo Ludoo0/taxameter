@@ -1,35 +1,78 @@
-body{
-    font-family: roboto;
-    margin: 0px;
+body {
+  font-family: roboto;
+  margin: 0px;
 }
 /* Navbar */
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
 }
-.headline{
-    display: flex;
+.headline {
+  display: flex;
 }
-.headline h1{
-    padding-left: 20px;
+.headline h1 {
+  padding-left: 20px;
 }
-.headline img{
-    padding-left: 20px;
+.headline img {
+  padding-left: 20px;
 }
-.links{
-    display: flex;
-    align-items: center;
+.links {
+  display: flex;
+  align-items: center;
 }
-.links a{
-    padding: 10px;
-    color: white;
-    text-decoration: none;
+.links a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
-.links a:hover{
-    text-decoration: underline;
-    color: rgb(216, 216, 216);
+.links a:hover {
+  text-decoration: underline;
+  color: rgb(216, 216, 216);
 }
 /* Body */
+.calculate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+}
+.inputs {
+  display: flex;
+  gap: 50px;
+}
+.calculate input {
+  border-radius: 10px;
+  height: 20px;
+  width: 200px;
+  border: 2px black solid;
+}
+.calculate input:hover {
+  background-color: rgb(216, 216, 216);
+}
+.answer {
+  border-radius: 10px;
+  height: 20px;
+  width: 200px;
+  border: 2px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin-top: 50px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px black solid;
+  background-color: white;
+  cursor: pointer;
+  width: 100px;
+}
+button:hover {
+  background-color: rgb(216, 216, 216);
+}
+
