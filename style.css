@@ -68,11 +68,11 @@ button {
   padding: 5px 10px;
   border-radius: 10px;
   border: 2px black solid;
-  background-color: white;
+  background-color: rgb(219, 217, 89);
   cursor: pointer;
   width: 100px;
 }
 button:hover {
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(184, 182, 73);
 }
 
